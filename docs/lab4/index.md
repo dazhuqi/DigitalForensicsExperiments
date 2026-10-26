@@ -6,24 +6,24 @@ Autopsy should run on the host machine; otherwise, latency may occur.
 ## Creating a New Case
 Select **Case > New Case** in the upper-left corner (or press **Ctrl+N**), enter the relevant information, and choose a folder in which to store the case.<br>
 *Note: Do not use Chinese characters or special symbols in the path, and reserve at least 50 GB of free space on the destination drive.*
-![Case information](../../images/lab4/01.png)
+![Case information](../images/lab4/01.png)
 
 Fill in optional information according to your needs.
-![Optional information](../../images/lab4/02.png)
+![Optional information](../images/lab4/02.png)
 
 ## Adding a Data Source
 Select **Host**. In general, create a new host.
-![Select host](../../images/lab4/03.png)
+![Select host](../images/lab4/03.png)
 
 Choose the data source type:
   - **Disk Image or VM File**: a disk image (such as .dd, .raw, or .E01) or a virtual machine disk (such as a VMware virtual disk).
   - **Local Disk**: analyze a physical drive directly (recommended only when the drive is not critical to the investigation).
   - **Logical Files**: a specific folder or a collection of logical files.
-  ![Source type](../../images/lab4/04.png)
+  ![Source type](../images/lab4/04.png)
 
 Select the path to the 001 file and the time zone.<br>
 *Do not overlook orphan files; forensic work is about finding every clue.*
-![Data source](../../images/lab4/05.png)
+![Data source](../images/lab4/05.png)
 
 For **Configure Ingest**, select modules according to your needs:
   - **Embedded File Extraction**: extract files embedded in archives or Office documents.
@@ -49,16 +49,16 @@ In the **Tree** view:
   - **Tags**: manage tags. When you find a clue, right-click the file and select **Add Tag** (for example, **Notable** or **Follow Up**).
   - **Score**: view items you have tagged. Autopsy also scores files based on its built-in rules.
   - **Reports**: generate analysis reports.
-![Tree view](../../images/lab4/06.png)
+![Tree view](../images/lab4/06.png)
 
 ### Score Module
-![Score module](../../images/lab4/07.png)
+![Score module](../images/lab4/07.png)
 
 Adding a tag:
-![Add a note](../../images/lab4/08.png)
+![Add a note](../images/lab4/08.png)
 
 Enter the information:
-![Note information](../../images/lab4/09.png)
+![Note information](../images/lab4/09.png)
 
 ## Generating an Analysis Report
 Select **Generate Report** at the top, check the analysis items you need, and save the report as an HTML file.
