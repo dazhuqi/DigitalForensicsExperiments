@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/DigitalForensicsExperiments/',
   title: 'Digital Forensics Experiments',
   description: 'Course notes and hands-on labs in digital forensics',
 
