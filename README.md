@@ -22,11 +22,7 @@ Course hands-on note.
 │   ├── .vitepress/
 │   │   └── config.mts
 │   ├── images/
-│   ├── lab2/
-│   │   └── index.md
-│   ├── lab3/
-│   │   └── index.md
-│   ├── lab4/
+│   ├── lab../
 │   │   └── index.md
 │   ├── zh/ 
 │   └── index.md
